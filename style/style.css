@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: quicksand;
+}
+
+.curriculum-prime{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.story-prime{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+header{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+:root{
+    --prime-color: rgb(254, 163, 1);
+    --second-color: rgb(17, 17, 17);
+}
+/* global attribute here */
+.btn-primary{
+    background-color: rgb(17, 17, 17);
+    padding: 14px 60px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+    color: white;
+}
+.margin-80{
+    margin-bottom: 80px;
+}
+.margin-60{
+    margin-bottom: 60px;
+}
+.yellow-prime{
+    color: rgb(254, 163, 1);
+}
+.blue-prime{
+    color: rgb(1, 172, 253);
+}
+.semiblue-prime{
+    color: rgb(5, 212, 223);
+}
+.purple-prime{
+    color: rgb(93, 88, 239);
+}
+.black-color{
+    color: rgb(17, 17, 17);
+}
+/* header  */
+/* nav  */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.school{
+    display: flex;
+    align-items: center;
+}
+.school h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--second-color);
+}
+.nav-menu{
+    display: flex;
+    gap: 32px;
+}
+.nav-menu a{
+    text-decoration: none;
+    
+}
+.nav-button{
+    background-color: var(--prime-color);
+}
+.nav-btn img{
+    display: none;
+}
+/* header banner site */
+.banner-two-side{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.banner-h1{
+    font-size: 3.5rem;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+.banner-p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+/* main */
+/* curriculum */
+.curriculum{
+    padding: 60px 0;
+}
+.card1{
+    border: 0.94px solid rgb(222, 245, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);;
+}
+.card2{
+    border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card3{
+    border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.prime-h2{
+    font-size: 2.875rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+.curriculum-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+.card{
+    text-align: center;
+    padding: 52px 40px;
+}
+.card h4{
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 32px 0 32px 0;
+    
+}
+.card p{
+    color: rgb(128, 128, 128);
+    margin-bottom: 33px;
+    font-family: Raleway;
+}
+.card a{
+    text-decoration: none;
+    font-weight: 700;
+}
+.read-1{
+    color: rgb(100, 200, 255);
+}
+.read-2{
+    color: rgb(240, 170, 0);
+}
+.read-3 {
+    color: rgb(135, 0, 255);
+}
+.arrow{
+    text-align: center;
+    margin-top: 80px;
+}
+.left-arrow{
+    background-color: var(--prime-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 22px;
+    margin-right: 10px;
+}
+.right-arrow{
+    background-color: var(--prime-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 22px;
+}
+
+/* our stories */
+.story-h2{
+    font-size: 2.875rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 80px;
+}
+.str-crd1{
+    border-radius: 16px;
+    background-color: white;
+}
+.larg-crd img{
+    border-radius: 16px 16px 0 0;
+}
+.larg-crd button{
+    font-weight: 500;
+    padding: 15px 20px;
+    background-color: rgb(60, 216, 232);
+    border-radius: 48px;
+    border: none;
+    position: relative;
+    bottom: 30px;
+    color: white;
+}
+.larg-crd h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.larg-crd p{
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+}
+.big-card{
+    padding: 0 35px 35px 35px;
+}
+.str-crd1{
+    grid-area: card-1;
+}
+.str-crd2{
+    grid-area: card-2;
+}
+.str-crd3{
+    grid-area: card-3;
+}
+.str-crd4{
+    grid-area: card-4;
+}
+.str-crd5{
+    grid-area: card-5;
+}
+.str-crd3-no2{
+    grid-area: card-no-1;
+}
+.str-crd3-no1{
+    grid-area: card-no-2;
+}
+.story-card{
+    display: grid;
+    grid-template-areas: "card-1 card-1 card-2 card-3"
+                            "card-1 card-1 card-4 card-5"
+                            ;
+    gap: 19px;
+}
+.view-all{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.crd{
+    border-radius: 10px;
+    background-color: white;
+}
+.crd img{
+    border-radius: 16px 16px 0 0;
+}
+.crd button{
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 48px;
+    border: none;
+    background-color: rgb(149, 178, 38);
+    position: relative;
+    bottom: 23px;
+    color: white;
+}
+.cd-3 button{
+    background-color: rgb(93, 88, 240);
+}
+.cd-2, .cd-3, .cd-4, .cd-5{
+    padding: 0 35px 35px 35px;
+}
+.story{
+    background-image: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.2) 100%);
+    
+}
+.hide-card{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .school h3, .nav-menu, .nav-btn button{
+        display: none;
+    }
+    .nav-btn img{
+        display: block;
+    }
+    .nav{
+        padding: 12px 16px;
+        border-bottom: 0.5px solid var(--prime-color);
+    }
+    .banner{
+        margin: 0 auto;
+    }
+    .banner-two-side{
+        flex-direction: column-reverse;
+        margin: 0 17px;
+        /* margin-left: 10px; */
+        text-align: center;
+    }
+    .curriculum{
+        margin: 0 auto;
+    }
+    .curriculum-card{
+        flex-direction: column;
+        margin: 0 17px;
+    }
+    .hero-kids{
+        width: 100%;
+    }
+    .larg-crd{
+        display: none;
+    }
+    .story-prime{
+        margin: 0 16px;
+        
+        text-align: center;
+    }
+    .story-prime img{
+        width: 100%;
+    }
+    .hide-card{
+        display: block;
+    }
+    .story-card{
+        grid-template-areas: "card-2 card-3"
+                            "card-no-1 card-no-2"
+                            "card-4 card-5";
+    }
+}
