@@ -31,6 +31,10 @@ header{
     font-weight: 700;
     border: none;
     color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: aquamarine;
 }
 .margin-80{
     margin-bottom: 80px;
@@ -167,6 +171,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     text-align: center;
     margin-top: 80px;
 }
+
 .left-arrow{
     background-color: var(--prime-color);
     width: 30px;
@@ -175,12 +180,33 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     padding: 22px;
     margin-right: 10px;
 }
+.left-arrow:hover ,.right-arrow:hover{
+    background-color: rgb(6, 172, 28);
+    cursor: pointer;
+}
 .right-arrow{
     background-color: var(--prime-color);
     width: 30px;
     height: 30px;
     border-radius: 50%;
     padding: 22px;
+}
+
+.marque{
+    color: blue;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    animation: marque 8s linear infinite;
+}
+@keyframes marque {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
 }
 
 /* our stories */
@@ -207,6 +233,10 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     position: relative;
     bottom: 30px;
     color: white;
+}
+.larg-crd button:hover{
+    background-color: hotpink;
+    cursor: pointer;
 }
 .larg-crd h4{
     font-size: 1.5rem;
@@ -270,6 +300,10 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     bottom: 23px;
     color: white;
 }
+.crd button:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
 .cd-3 button{
     background-color: rgb(93, 88, 240);
 }
@@ -283,7 +317,61 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 .hide-card{
     display: none;
 }
+/* footer */
+footer{
+    padding: 123px 0 174px 0;
+    background-color: rgb(1, 172, 253);
+}
+.footer-primary{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
 
+}
+.little-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.little-img img{
+    height: 80px;
+    color: white;
+}
+.little-img h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 42px;
+    color: white;
+}
+.first{
+    padding: 0 170px 0 0;
+}
+.first p{
+    color: white;
+    padding: 32px 0 0 7px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.second h5{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+}
+.second p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+.sec-fl h4{
+    font-size: 1.625rem;
+    color: white;
+    margin-bottom: 32px;
+}
 @media screen and (max-width: 576px) {
     .school h3, .nav-menu, .nav-btn button{
         display: none;
@@ -311,6 +399,9 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
         flex-direction: column;
         margin: 0 17px;
     }
+    .arrow{
+        display: none;
+    }
     .hero-kids{
         width: 100%;
     }
@@ -332,5 +423,18 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
         grid-template-areas: "card-2 card-3"
                             "card-no-1 card-no-2"
                             "card-4 card-5";
+    }
+    .footer-primary{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 20px;
+    }
+    .second{
+        flex-direction: column;
+    }
+    footer{
+        padding: 123px 0 60px 0;
+    }
+    .marque{
+        animation: marque 5s linear infinite;
     }
 }
