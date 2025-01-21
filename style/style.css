@@ -6,6 +6,7 @@
     font-family: quicksand;
 }
 
+
 .curriculum-prime{
     max-width: 1160px;
     margin: 0 auto;
@@ -191,8 +192,11 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     border-radius: 50%;
     padding: 22px;
 }
-
+.scrolling-text{
+    overflow-x: hidden;
+}
 .marque{
+    /* overflow:hidden; */
     color: blue;
     font-weight: 700;
     text-transform: capitalize;
